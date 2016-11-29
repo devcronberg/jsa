@@ -4,7 +4,7 @@
   "description": "JS Assignments",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd wwwroot && browser-sync start --config ../bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/devcronberg/jsa/issues"
   },
-  "homepage": "https://github.com/devcronberg/jsa#readme"
+  "homepage": "https://github.com/devcronberg/jsa#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2"
+  }
 }
