@@ -33,6 +33,8 @@ This is a perfect time to discuss
 * browser-sync
 * Transpiler
 
+Is ok to peek in the solution at `scripts/solution/005helloworld.js`.
+
 ## Use strict and var
 Make sure index.html has a reference to `scripts/starter/010var.js` and:
 
@@ -56,3 +58,28 @@ To discuss:
 * javascript has internal types
 * typeof reveals the internal type
 * use strict enforces declaration
+
+Is ok to peek in the solution at `scripts/solution/010var.js`.
+
+## Array
+Make sure index.html has a reference to `scripts/starter/015array.js` and:
+* Create an array a with the values 1,5,7,15,2,6,4
+* log a to the console
+* push a value to the array
+* log a to the console
+* pop a value to a variable by
+* log b and a to the console
+* sort the array
+* log a to the console
+
+View the console - you should get something like
+
+![Image](https://cloud.githubusercontent.com/assets/13196981/20727793/36884c9e-b67b-11e6-9c60-f09b7650f1b8.png)
+
+Discuss:
+
+* Chrome has a nice console ;)
+* sort... ?? why is it in a weird order?
+* When can we talk about all the neat methods like filter and map? 
+
+Is ok to peek in the solution at `scripts/solution/015array.js`.
