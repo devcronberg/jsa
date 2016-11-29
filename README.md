@@ -13,6 +13,8 @@
 * Type "npm start" 
 * Start coding 
 
+---
+
 ## Hello world
 
 This is a very simple assignment. Make sure index.html has a 
@@ -21,7 +23,7 @@ reference to `scripts/starter/005helloworld.js` and use
  if it works by typing "npm start" in console (ask the instrutor), and press F12 in the browser to see 
    the console-window.
 
-This is a perfect time to discuss
+### This is a perfect time to discuss
 
 * "Getting started"
 * Best practice javascript
@@ -34,6 +36,8 @@ This is a perfect time to discuss
 * Transpiler
 
 Is ok to peek in the solution at `scripts/solution/005helloworld.js`.
+
+--- 
 
 ## Use strict and var
 Make sure index.html has a reference to `scripts/starter/010var.js` and:
@@ -52,7 +56,7 @@ View the console - you should get something like
 
 ![Image](https://cloud.githubusercontent.com/assets/13196981/20727205/e4a1d316-b678-11e6-813a-b85849f4f2a0.png)
 
-To discuss:
+### To discuss:
 
 * javascript is typeless
 * javascript has internal types
@@ -61,6 +65,7 @@ To discuss:
 
 Is ok to peek in the solution at `scripts/solution/010var.js`.
 
+---
 ## Array
 Make sure index.html has a reference to `scripts/starter/015array.js` and:
 * Create an array a with the values 1,5,7,15,2,6,4
@@ -76,10 +81,13 @@ View the console - you should get something like
 
 ![Image](https://cloud.githubusercontent.com/assets/13196981/20727793/36884c9e-b67b-11e6-9c60-f09b7650f1b8.png)
 
-Discuss:
+### To discuss:
 
 * Chrome has a nice console ;)
 * sort... ?? why is it in a weird order?
-* When can we talk about all the neat methods like filter and map? 
+* When can we talk about all the neat methods like filter, map, slice and splice?
+* Hmmm.... some methods like [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) was added to ES5 - what about older browsers?. Even worse - what about the neat [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method? It's a ES2015 method. Now what? Transpiler, linter, polyfill?   
 
 Is ok to peek in the solution at `scripts/solution/015array.js`.
+
+---

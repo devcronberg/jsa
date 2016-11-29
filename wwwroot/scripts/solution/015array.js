@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var a = [1,5,7,15,2,6,4];
+    var a = [1, 5, 7, 15, 2, 6, 4];
     console.log(a);
     a.push(5);
     console.log(a);
