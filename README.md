@@ -11,6 +11,7 @@ This is a perfect time to discuss
 
 * "Getting started"
 * Best practice javascript
+* Debug
 * Node
 * NPM (scripts)
 * Why use Chrome/Firefox/Edge
