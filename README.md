@@ -1,2 +1,1 @@
-# jsa
-JS assignments
+# JS assignments
