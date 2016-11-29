@@ -66,6 +66,7 @@ View the console - you should get something like
 Is ok to peek in the solution at `scripts/solution/010var.js`.
 
 ---
+
 ## Array
 Make sure index.html has a reference to `scripts/starter/015array.js` and:
 * Create an array a with the values 1,5,7,15,2,6,4
@@ -91,3 +92,23 @@ View the console - you should get something like
 Is ok to peek in the solution at `scripts/solution/015array.js`.
 
 ---
+
+## Flow (and maybe string.js)
+
+Make sure index.html has a reference to `scripts/starter/020flow.js`. Your job is to create this in the console:
+
+![Image](https://cloud.githubusercontent.com/assets/13196981/20730015/bc5e923e-b684-11e6-91f8-e6986378a5d1.png)
+
+Here is a few tips:
+
+* use a for-loop in a for-loop 
+* use the [padLeft-method](http://stringjs.com/#methods/padleft-len-char) from string.js to pad with spaces to create alignment. string.js is already referenced in index.html.
+
+## To discuss
+* Why use a js library - a padLeft should be easy to code - or??
+* What other libraries could be useful
+
+It's ok to peek in the solution at `scripts/solution/020flow.js` before coding.   
+
+---
+

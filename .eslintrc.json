@@ -20,5 +20,10 @@
         ],
         "eqeqeq": "warn",
         "semi": "warn"
+    },    
+    "globals": {
+        "S": true,
+        "jQuery": true,
+        "$": true
     }
-}
+}    
