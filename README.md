@@ -6,6 +6,7 @@
 * [Use strict and var](#use-strict-and-var)
 * [Array](#array)
 * [Flow](#flow)
+* [Simple function](#simple-function)
 * [Links](#links)
 
 ## Install:
