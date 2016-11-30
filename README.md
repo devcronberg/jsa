@@ -132,6 +132,27 @@ The vat procentage is provided in the starter file. You need to make sure that t
 
 Test both functions in the console.
 
+## Template 
+
+Is the starter file this template is used to create an object with to two methods:
+
+var [name] = (function(args){
+    "use strict";
+    
+    var obj = {};   // empty object
+    var x = 1;      // Hidden variable
+
+    obj.[name] = function (){};
+
+    // Hidden function
+    var [name] = function(){ };
+
+    return obj;
+
+})(args);
+
+Is not the best way to do it - but it's simple and safe.
+
 ## To discuss
 
 * Why "embed" the functions in an object?
