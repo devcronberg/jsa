@@ -137,20 +137,20 @@ Test both functions in the console.
 Is the starter file this template is used to create an object with to two methods:
 
 
-var [name] = (function(args){
-    "use strict";
+    var [name] = (function(args){
+        "use strict";
     
-    var obj = {};   // empty object
-    var x = 1;      // Hidden variable
+        var obj = {};   // empty object
+        var x = 1;      // Hidden variable
 
-    obj.[name] = function (){};
+        obj.[name] = function (){};
 
-    // Hidden function
-    var [name] = function(){ };
+        // Hidden function
+        var [name] = function(){ };
 
-    return obj;
+        return obj;
 
-})(args);
+    })(args);
 
 
 
