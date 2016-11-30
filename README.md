@@ -1,5 +1,9 @@
 # JS assignments
 
+## Contents
+* [Install](#install)
+
+
 ## Install:
 * Install [node.js](https://nodejs.org/en/)
 * In commandprompt type "npm install -g eslint" to install eslint
