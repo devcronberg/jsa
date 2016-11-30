@@ -2,11 +2,11 @@
 
 ## Contents
 * [Install](#install)
-* [Hello World](#Hello-world)
-* [Use strict and var](#Use-strict-and-var)
-* [Array](#Array)
-* [Flow](#Flow)
-* [Links](#Links)
+* [Hello World](#hello-world)
+* [Use strict and var](#use-strict-and-var)
+* [Array](#array)
+* [Flow](#flow)
+* [Links](#links)
 
 ## Install:
 * Install [node.js](https://nodejs.org/en/)
