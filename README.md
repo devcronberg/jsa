@@ -140,7 +140,7 @@ Is the starter file this template is used to create an object with to two method
 var [name] = (function(args){
     "use strict";
 
-    var obj = {};   // empty object
+    var obj = {};   // empty object to hold methods (will be returned)
     var x = 1;      // Hidden variable
 
     obj.[name] = function (){};
@@ -163,6 +163,38 @@ Is not the best way to do it - but it's simple and safe.
 * Can you access the checkAmount-function from outside the object? Is it "private"?
 
 It's ok to peek in the solution at [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunction.js) before coding.   
+
+---
+
+## Async
+
+Make sure index.html has a reference to `scripts/starter/040callback.js`. 
+
+In the starter file you will find a function called getRandomNumber(max). It should create a random number 
+between 1 and max and take max-(seconds/10) (that's why the function is using setTimeout):
+
+```javascript
+    function getRandomNumber(max) {
+        setTimeout(function () {
+            return Math.floor((Math.random() * max)) + 1;
+        }, max * 100);
+    }
+    
+    var res = getRandomNumber(10);
+    console.log(res);
+```
+
+For some reason its failing - the function always returns undefined and it returns immediately and not after [max] seconds/10.
+
+Your job is to fix the code so the function generates a random number after [max] seconds/10, and the number is logged to the console (and no - you can not console.log from inside the function :smile:).
+
+## To discuss
+
+* What is a callback function?
+* You told us JavaScript only has one thread - how can anything be async then???
+* Why can't I use async and await? (or can I ???)
+
+It's ok to peek in the solution at [`scripts/solution/040callback.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/040callback.js) before coding.   
 
 ---
 

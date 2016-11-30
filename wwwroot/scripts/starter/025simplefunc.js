@@ -1,11 +1,12 @@
 /* 
-    You could to it like this - in global scope:
+    You could to it like this:
 
     function excludeVAT(amount) {}
     function includeVAT(amount) {}
 
-    but then they (and the vat procentage) are global and harder to test and debug
-
+    in an function that calls it self - but then they can't be accessed outside
+    the function.
+    
     A simple solution could be to create an object with the functions as methods:
 
 */
