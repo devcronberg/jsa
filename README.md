@@ -7,6 +7,8 @@
 * [Array](#array)
 * [Flow](#flow)
 * [Simple function](#simple-function)
+* [Async](#async)
+* [Objects](#Objects)
 * [Links](#links)
 
 ## Install:
@@ -171,7 +173,7 @@ It's ok to peek in the solution at [`scripts/solution/025simplefunction.js`](htt
 Make sure index.html has a reference to `scripts/starter/040callback.js`. 
 
 In the starter file you will find a function called getRandomNumber(max). It should create a random number 
-between 1 and max and take max-(seconds/10) (that's why the function is using setTimeout):
+between 1 and max and take [max] seconds/10 (that's why the function is using setTimeout):
 
 ```javascript
     function getRandomNumber(max) {
@@ -184,7 +186,7 @@ between 1 and max and take max-(seconds/10) (that's why the function is using se
     console.log(res);
 ```
 
-For some reason its failing - the function always returns undefined and it returns immediately and not after [max] seconds/10.
+For some reason its failing (try for your self) - the function always returns undefined and it returns immediately and not after [max] seconds/10.
 
 Your job is to fix the code so the function generates a random number after [max] seconds/10, and the number is logged to the console (and no - you can not console.log from inside the function :smile:).
 
@@ -195,6 +197,31 @@ Your job is to fix the code so the function generates a random number after [max
 * Why can't I use async and await? (or can I ???)
 
 It's ok to peek in the solution at [`scripts/solution/040callback.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/040callback.js) before coding.   
+
+---
+
+## Objects
+
+Make sure index.html has a reference to `scripts/starter/050objects.js`. 
+
+In this assignment you must create three objects - all of them contains two properties (firstname and lastname) and one method (fullname) that concatinates the two properties:
+
+* The first object (o1) must be created with the [] syntax
+* The second object (o2) must be created with the . syntax
+* The third object (o3) must be created with the {} syntax
+* Log all objects to the console and make sure the fullname-method works on all objects.
+* Add all objects to a new array (a)
+* Log the array to the console
+* Create and log a JSON representation of the array to the console
+
+## To discuss
+
+* Are there any difference between [], . and {} syntax?
+* JSON?? But thats for AJAX communication - right?
+* AJAX????
+* Can I add or remove members to objects on runtime??
+
+It's ok to peek in the solution at [`scripts/solution/050objects.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/050objects.js) before coding.   
 
 ---
 
