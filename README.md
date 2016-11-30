@@ -4,9 +4,9 @@
 * Install [node.js](https://nodejs.org/en/)
 * In commandprompt type "npm install -g eslint" to install eslint
 * Install [Visual Studio Code](https://code.visualstudio.com)
-* Install [Git](https://git-scm.com/downloads)
 * In VS Code open Extensions (View-menu) and find/install "eslint" (remember to restart)
-* [Clone](https://github.com/devcronberg/jsa) repository (open commandprompt and type "git clone https://github.com/devcronberg/jsa.git")
+* If you like to use Git: Install [Git](https://git-scm.com/downloads) and [Clone](https://github.com/devcronberg/jsa) repository (open commandprompt and type "git clone https://github.com/devcronberg/jsa.git")
+* If you don't want Git just [download](https://github.com/devcronberg/jsa/archive/master.zip) the repository, and place the files in a folder somewhere called "jsa"
 * Open the jsa-folder in VS Code
 * Open Integrated terminal (View-menu)
 * Type "npm install" (and wait....)
