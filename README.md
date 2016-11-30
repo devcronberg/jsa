@@ -63,7 +63,7 @@ View the console - you should get something like
 * typeof reveals the internal type
 * use strict enforces declaration
 
-Is ok to peek in the solution at [`scripts/solution/010var.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/005HelloWorld.js).
+Is ok to peek in the solution at [`scripts/solution/010var.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/010Var.js).
 
 ---
 
