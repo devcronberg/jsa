@@ -136,6 +136,7 @@ Test both functions in the console.
 
 Is the starter file this template is used to create an object with to two methods:
 
+
 var [name] = (function(args){
     "use strict";
     
@@ -150,6 +151,8 @@ var [name] = (function(args){
     return obj;
 
 })(args);
+
+
 
 Is not the best way to do it - but it's simple and safe.
 
