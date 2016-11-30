@@ -35,7 +35,7 @@ reference to `scripts/starter/005helloworld.js` and use
 * browser-sync
 * Transpiler
 
-Is ok to peek in the solution at `scripts/solution/005helloworld.js`.
+Is ok to peek in the solution at [`scripts/solution/005helloworld.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/005HelloWorld.js).
 
 --- 
 
@@ -89,7 +89,7 @@ View the console - you should get something like
 * When can we talk about all the neat methods like filter, map, slice and splice?
 * Hmmm.... some methods like [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) was added to ES5 - what about older browsers?. Even worse - what about the neat [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method? It's a ES2015 method. Now what? Transpiler, linter, polyfill?   
 
-Is ok to peek in the solution at `scripts/solution/015array.js`.
+Is ok to peek in the solution at [`scripts/solution/015array.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/015array.js).
 
 ---
 
@@ -108,7 +108,7 @@ Here is a few tips:
 * Why use a js library - a padLeft should be easy to code - or??
 * What other libraries could be useful
 
-It's ok to peek in the solution at `scripts/solution/020flow.js` before coding.   
+It's ok to peek in the solution at [`scripts/solution/020flow.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/020flow.js) before coding.   
 
 ---
 
