@@ -1,8 +1,27 @@
-(function(){
+(function () {
     "use strict";
+
     
-    // no global code (yet)
+ 
+
+    a();
+  
+
+
+
+
+    function a(){
+        b();
+    }
     
+    function b(){
+        c();
+    }
+   
+    function c(){
+        throw new Error("lskdjf");
+    }
+
 
 
 })();
