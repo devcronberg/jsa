@@ -120,5 +120,26 @@ It's ok to peek in the solution at [`scripts/solution/020flow.js`](https://githu
 
 ---
 
+## Simple function
+
+Make sure index.html has a reference to `scripts/starter/025simplefunc.js`. Your job is to create two functions:
+
+* includeVAT(amount) [(1+vat) * amount]
+* excludeVAT(amount) [amount / (1+vat)]
+
+The vat procentage is provided in the starter file. You need to make sure that the amount is a number. If not throw an error "wrong argument".
+
+Test both functions in the console.
+
+## To discuss
+
+* Why "embed" the functions in an object?
+* How the heck can both functions access the vat procentage?
+* Can you access the checkAmount-function from outside the object? Is it "private"?
+
+It's ok to peek in the solution at [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunction.js) before coding.   
+
+---
+
 ## Links
 You can find links related to the assignments (and course) [here](http://l.cronberg.dk/publiclinks.aspx?tags=michell,js_201611aarhus&text=Om%20Michell%20Cronberg,Links%20fra%20kurset&header=JavaScript&message=Diverse%20links%20relateret%20til%20kurset)
