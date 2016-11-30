@@ -2,8 +2,11 @@
 
 ## Contents
 * [Install](#install)
-* [Hello World](#Hello world)
-
+* [Hello World](#Hello-world)
+* [Use strict and var](#Use-strict-and-var)
+* [Array](#Array)
+* [Flow](#Flow)
+* [Links](#Links)
 
 ## Install:
 * Install [node.js](https://nodejs.org/en/)
@@ -98,7 +101,7 @@ Is ok to peek in the solution at [`scripts/solution/015array.js`](https://github
 
 ---
 
-## Flow (and maybe string.js)
+## Flow
 
 Make sure index.html has a reference to `scripts/starter/020flow.js`. Your job is to create this in the console:
 
