@@ -221,7 +221,7 @@ Make sure index.html has a reference to `scripts/starter/090jqueryAjax.js`, and 
 ## To discuss
 
 * jQuery is "just" a library to help you work with the DOM and do AJAX - you know that - right?
-* Can you avoid using AJAX?
+* Can you avoid using jQuery?
 * Deferred objects/Promises? in jQuery? in ES6?
 * XMLHttpRequest? and what the heck is fetch???
 
