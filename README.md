@@ -8,7 +8,7 @@
 * [Flow](#flow)
 * [Simple function](#simple-function)
 * [Async](#async)
-* [Objects](#Objects)
+* [Objects](#objects)
 * [Links](#links)
 
 ## Install:
