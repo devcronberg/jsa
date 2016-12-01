@@ -125,38 +125,22 @@ It's ok to peek in the solution at [`scripts/solution/020flow.js`](https://githu
 
 ## Simple function
 
-Make sure index.html has a reference to `scripts/starter/025simplefunc.js`. Your job is to create two functions:
+Your job is to create two functions:
 
-* includeVAT(amount) [(1+vat) * amount]
-* excludeVAT(amount) [amount / (1+vat)]
+* includeVAT(amount, vat) [(1+vat) * amount]
+* excludeVAT(amount, vat) [amount / (1+vat)]
 
-The vat procentage is provided in the starter file. You need to make sure that the amount is a number. If not throw an error "wrong argument".
+You can choose two ways to solve the assignment - a simple and a more advanced:
+
+### The simple
+
+Make sure index.html has a reference to `scripts/starter/024simplefunc.js` and create both functions and test them in the console.
+
+### The more advanced
+
+Make sure index.html has a reference to `scripts/starter/025simplefunc.js`. Create an object with the two functions as methods (see the starter file). The vat procentage is provided in the starter file. You need to make sure that the amount is a number. If not throw an error "wrong argument".
 
 Test both functions in the console.
-
-## Template 
-
-Is the starter file this template is used to create an object with to two methods:
-
-```javascript
-var [name] = (function(args){
-    "use strict";
-
-    var obj = {};   // empty object to hold methods (will be returned)
-    var x = 1;      // Hidden variable
-
-    obj.[name] = function (){};
-
-    // Hidden function
-    var [name] = function(){ };
-
-    return obj;
-
-})(args);
-```
-
-
-Is not the best way to do it - but it's simple and safe.
 
 ## To discuss
 
@@ -164,7 +148,7 @@ Is not the best way to do it - but it's simple and safe.
 * How the heck can both functions access the vat procentage?
 * Can you access the checkAmount-function from outside the object? Is it "private"?
 
-It's ok to peek in the solution at [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunction.js) before coding.   
+It's ok to peek in the solution at [`scripts/solution/024simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/024simplefunction.js) or [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunction.js) before coding.   
 
 ---
 
