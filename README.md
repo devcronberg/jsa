@@ -207,6 +207,25 @@ In this assignment you must create three objects - all of them contains two prop
 
 It's ok to peek in the solution at [`scripts/solution/050objects.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/050objects.js) before coding.   
 
+## jQuery AJAX
+
+Make sure index.html has a reference to `scripts/starter/090jqueryAjax.js`, and you have removed comments in the HTML so the DOM contains a textbox, a button, a list etc. 
+
+* When the user clicks the button #myButton then...
+* Find a value from the textbox #myText (if empty use 10)
+* Use the $.getJSON to call http://fdemo2.cronberg.dk/random.ashx. Make sure you append an object with the property "antal" set to the value in the textbox (see getJSON spec at jQuery.com)
+* Iterate through the data received and create an li-element for each item with content set to the guid from each object.
+* Append the li-element to the ul-element (#myList)   
+
+## To discuss
+
+* jQuery is "just" a library to help you work with the DOM and do AJAX - you know that - right?
+* Can you avoid using AJAX?
+* Deferred objects/Promises? in jQuery? in ES6?
+* XMLHttpRequest? and what the heck is fetch???
+
+It's ok to peek in the solution at [`scripts/solution/090jqueryAjax.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/090jqueryAjax.js) before coding.   
+
 ---
 
 ## Links
