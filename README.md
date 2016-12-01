@@ -130,11 +130,11 @@ Your job is to create two functions:
 * includeVAT(amount, vat) [(1+vat) * amount]
 * excludeVAT(amount, vat) [amount / (1+vat)]
 
-You can choose two ways to solve the assignment - a simple and a more advanced:
+You can choose two ways to solve the problem - a simple and a more advanced:
 
 ### The simple
 
-Make sure index.html has a reference to `scripts/starter/024simplefunc.js` and create both functions and test them in the console.
+Make sure index.html has a reference to `scripts/starter/024simplefunc.js` and create both functions. You need to make sure that the amount is a number. If not throw an error "wrong argument". Test the functions in the console.
 
 ### The more advanced
 
