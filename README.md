@@ -9,7 +9,7 @@
 * [Simple function](#simple-function)
 * [Async](#async)
 * [Objects](#objects)
-* [jQuery AJAX](jquery-ajax)
+* [jQuery AJAX](#jquery-ajax)
 * [Links](#links)
 
 ## Install:
