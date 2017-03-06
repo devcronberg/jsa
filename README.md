@@ -10,7 +10,7 @@
 * [Async](#async)
 * [Objects](#objects)
 * [jQuery AJAX](#jquery-ajax)
-* [Links](#links)
+
 
 ## Install:
 * Install [node.js](https://nodejs.org/en/)
@@ -227,7 +227,4 @@ Make sure index.html has a reference to `scripts/starter/090jqueryAjax.js`, and 
 
 It's ok to peek in the solution at [`scripts/solution/090jqueryAjax.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/090jqueryAjax.js) before coding.   
 
----
 
-## Links
-You can find links related to the assignments (and course) [here](http://l.cronberg.dk/publiclinks.aspx?tags=michell,js_201611aarhus&text=Om%20Michell%20Cronberg,Links%20fra%20kurset&header=JavaScript&message=Diverse%20links%20relateret%20til%20kurset)
