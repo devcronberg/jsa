@@ -231,7 +231,7 @@ console.log(f.totalPrice(), f);
 ## To discuss
 * private/public?
 * browser support
-* transpiler
+* transpiler (try pasting the code into [babel](http://babeljs.io/repl/) repl)
 
 It's ok to peek in the solution at [`scripts/solution/060class.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/060class.js) before coding.
 
