@@ -9,6 +9,7 @@
 * [Simple function](#simple-function)
 * [Async](#async)
 * [Objects](#objects)
+* [Class](#class)
 * [jQuery AJAX](#jquery-ajax)
 
 
@@ -207,6 +208,30 @@ In this assignment you must create three objects - all of them contains two prop
 * Can I add or remove members to objects on runtime??
 
 It's ok to peek in the solution at [`scripts/solution/050objects.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/050objects.js) before coding.   
+
+## Class
+Make sure index.html has a reference to [`scripts/starter/050objects.js`](scripts/starter/050objects.js). 
+
+Your job is to create an class Invoice with theese members:
+
+* a constructor where _number (this._number) is initialized to 0, _lines (this._lines) is initialized to an empty array, and _date (this._date) is initialized to the current date
+* a getter and a setter called number getting/setting this._number
+* a method addLine() with an line-object as argument (ex { text:"", quantity: 5, price: 10}). The object must be added (pushed) to the this._lines array
+* a method totalPrice() that return the total sum (quantity * price) of all lines
+* Use this code to test the class
+
+```
+var f = new Invoice();
+f.number = 1;
+f.addLine({ text: "test1", price: 100, quantity : 2});
+f.addLine({ text: "test2", price: 25, quantity : 200});
+
+console.log(f.totalPrice(), f);
+```
+## To discuss
+* private/public?
+* browser support
+* transpiler
 
 ## jQuery AJAX
 
