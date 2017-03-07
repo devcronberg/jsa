@@ -210,7 +210,7 @@ In this assignment you must create three objects - all of them contains two prop
 It's ok to peek in the solution at [`scripts/solution/050objects.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/050objects.js) before coding.   
 
 ## Class
-Make sure index.html has a reference to [`scripts/starter/050objects.js`](scripts/starter/050objects.js). 
+Make sure index.html has a reference to [`scripts/starter/060class.js`](scripts/starter/060class.js). 
 
 Your job is to create an class Invoice with theese members:
 
