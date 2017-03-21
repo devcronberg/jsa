@@ -252,6 +252,6 @@ Make sure index.html has a reference to `scripts/starter/090jqueryAjax.js`, and 
 * Deferred objects/Promises? in jQuery? in ES6?
 * XMLHttpRequest? and what the heck is fetch???
 
-It's ok to peek in the solution at [`scripts/solution/090jqueryAjax.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/090jqueryAjax.js) before coding.   
+It's ok to peek in the solution at [`scripts/solution/090jqueryAjax.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/090jQueryAjax.js) before coding.   
 
 
