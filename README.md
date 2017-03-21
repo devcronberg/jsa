@@ -150,7 +150,7 @@ Test both functions in the console.
 * How the heck can both functions access the vat procentage?
 * Can you access the checkAmount-function from outside the object? Is it "private"?
 
-It's ok to peek in the solution at [`scripts/solution/024simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/024simplefunction.js) or [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunction.js) before coding.   
+It's ok to peek in the solution at [`scripts/solution/024simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/024simplefunc.js) or [`scripts/solution/025simplefunction.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/025simplefunc.js) before coding.   
 
 ---
 
@@ -241,7 +241,7 @@ Make sure index.html has a reference to `scripts/starter/090jqueryAjax.js`, and 
 
 * When the user clicks the button #myButton then...
 * Find a value from the textbox #myText (if empty use 10)
-* Use the $.getJSON to call http://fdemo2.azurewebsites.net/random.ashx. Make sure you append an object with the property "antal" set to the value in the textbox (see getJSON spec at jQuery.com)
+* Use the $.getJSON to call http://fdemo2.cronberg.dk/random.ashx. Make sure you append an object with the property "antal" set to the value in the textbox (see getJSON spec at jQuery.com)
 * Iterate through the data received and create an li-element for each item with content set to the guid from each object.
 * Append the li-element to the ul-element (#myList)   
 
