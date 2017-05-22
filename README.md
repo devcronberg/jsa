@@ -86,7 +86,7 @@ Make sure index.html has a reference to `scripts/starter/015array.js` and:
 * log a to the console
 * push a value to the array
 * log a to the console
-* pop a value to a variable by
+* pop a value to a variable b
 * log b and a to the console
 * sort the array
 * log a to the console
