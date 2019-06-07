@@ -98,8 +98,8 @@ View the console - you should get something like
 ### To discuss:
 
 * Chrome has a nice console ;)
-* sort... ?? why is it in a weird order?
-* When can we talk about all the neat methods like filter, map, slice and splice?
+* sort... ?? why is it in a weird order? Fix it!
+* try the filter method (find all elements < 7) and log the result. Try with a function, a anonymous function and a lambda.
 * Hmmm.... some methods like [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) was added to ES5 - what about older browsers?. Even worse - what about the neat [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method? It's a ES2015 method. Now what? Transpiler, linter, polyfill?   
 
 Is ok to peek in the solution at [`scripts/solution/015array.js`](https://github.com/devcronberg/jsa/blob/master/wwwroot/scripts/solution/015array.js).
